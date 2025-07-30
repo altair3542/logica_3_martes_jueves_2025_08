@@ -11,3 +11,46 @@
 # 4. escribiy codigo python para crear y recorrer arreglos, manejando posibles errores en el indice
 
 # 5. resolver ejercicios practicos de definicion e inicializacion de vectores y matrices.
+
+# que son es una estructura de datos?
+
+# es una forma de organizar y almacenar datos en la memoria para que puedan ser utilizados de forma eficiente.
+
+# es importante elegir una estructura correcta por que esto impacta directamente en la velocidad de acceso, la facilidad de modificacion y el consumo de recursos.
+
+# tipos basicos de estructuras de datos:
+# Arreglos (listas o vectores), pilas (stacks),
+# colas (queues), arboles (trees), grafos (graphs), tablas hash (hash tables).
+
+# Caracteristicas de los arreglos.
+
+# un arreglo es una coleccion de elementos ordenados por un indice que se almacenan de forma contigua en memoria, un arreglo puede contener cualquier tipo de dato y pueden mutar en tamaño (esto funciona en python.)
+
+# caracterusticas:
+
+# Contiguidad en memoria.
+
+# los elementos se almacenan de forma continua, uno tras otro
+
+# ventajas: acceso muy rapido a cualquier posicion.
+
+# limitacion: redimensionar implica duplicar todo el contenido del arreglo.
+
+# acceso por indice
+
+# Cada elemento tiene un indice ENTERO asociado, comienzan desde cero.
+
+# permite lecturas rapidas de tipo lineal.
+
+# lista[3]
+
+# lista[-1]
+
+# ventajas como el acceso directo a un elemento especifico por indice es posible, tambien permite que las iteraciones sean mas simples.
+
+# limitaciones:
+# lenguajes estaticos son de tamaño fijo o en lenguajes dinamicos son costosos de redimensionar.
+
+# inserciones/borrados en posiciones intermedias requieren desplazar los elementos en memoria, lo que puede tambien ser costoso.
+
+
