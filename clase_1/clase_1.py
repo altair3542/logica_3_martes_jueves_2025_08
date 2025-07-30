@@ -75,3 +75,14 @@
 
 # print(f"quiero imprimir el numero {matriz_3x3[1][1]}")
 
+# Vector de cadenas:
+
+# definir un vector llamado frutas que contenga al menos 5 nombres de frutas, luego los vamos a recorrer y vamos a imprimir su nombre y su indice.
+
+frutas = ["Mango", "Cereza", "Fresa", "Piña", "Aguacate", "Arandanos", "tomate", "Banano", "kiwi", "Lulo", "Mangostino", "Zapote", "Guayaba", "Granadilla", "Coco"]
+
+print("holi, estoy resoliviendo el reto de las furtas")
+
+for idx, fruta in enumerate(frutas):
+    print(f"[{idx}] -> {fruta}")
+print("\n")
