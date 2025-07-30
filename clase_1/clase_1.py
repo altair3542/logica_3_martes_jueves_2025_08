@@ -53,4 +53,25 @@
 
 # inserciones/borrados en posiciones intermedias requieren desplazar los elementos en memoria, lo que puede tambien ser costoso.
 
+# 2.3 Vectores unidimensionales vs. matrices multidimensionales.
+
+# vector unidimensional, tambien conocido como lista es un arreglo que contiene tipos de datos simples o primitivos.
+
+# dias_semana = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
+
+# print(f"hoy es {dias_semana[0]}")
+
+
+# listas multidimensionales o matrices.
+
+# suele contener tipos de datos compuestos:
+# arreglos o diccionarios
+
+# matriz_3x3 = [
+#     [1, 2, 3],
+#     [4, 5, 6],
+#     [7, 8, 9]
+# ]
+
+# print(f"quiero imprimir el numero {matriz_3x3[1][1]}")
 
