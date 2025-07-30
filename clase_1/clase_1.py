@@ -79,10 +79,29 @@
 
 # definir un vector llamado frutas que contenga al menos 5 nombres de frutas, luego los vamos a recorrer y vamos a imprimir su nombre y su indice.
 
-frutas = ["Mango", "Cereza", "Fresa", "Piña", "Aguacate", "Arandanos", "tomate", "Banano", "kiwi", "Lulo", "Mangostino", "Zapote", "Guayaba", "Granadilla", "Coco"]
+# frutas = ["Mango", "Cereza", "Fresa", "Piña", "Aguacate", "Arandanos", "tomate", "Banano", "kiwi", "Lulo", "Mangostino", "Zapote", "Guayaba", "Granadilla", "Coco"]
 
-print("holi, estoy resoliviendo el reto de las furtas")
+# print("holi, estoy resoliviendo el reto de las furtas")
 
-for idx, fruta in enumerate(frutas):
-    print(f"[{idx}] -> {fruta}")
-print("\n")
+# for idx, fruta in enumerate(frutas):
+#     print(f"[{idx}] -> {fruta}")
+# print("\n")
+
+# matriz 3 x 3
+
+# enunciado: crear una matriz 3 x 3 con valores aleatorios, eso si, numericos, despues, recorremos las filas y las columnas para imprimir el valor de cada celda con el siguiente formato:
+
+# fila, columna -> valor.
+
+tablero = [
+    [0, 1, 2],
+    [13, 4, 3],
+    [20, 2, 8]
+]
+
+print("Este es el reto de la matriz.")
+for fila in range(len(tablero)):
+    for julanito in range(len(tablero[fila])):
+        valor = tablero[fila][julanito]
+        print(f"({fila}, {julanito}) -> {valor}")
+    print()
