@@ -23,13 +23,52 @@ numeros = [3, 5, 7, 9]
 
 # Dinamica (por construccion en tiempo de ejecucion.)
 
-n = 5
-num = []
+# n = 5
+# num = []
 
-for i in range(n):
-    valor = int(input(f"ingrese el valor {i + 1}: "))
-    num.append(valor)
-    print(num)
+# for i in range(n):
+#     valor = int(input(f"ingrese el valor {i + 1}: "))
+#     num.append(valor)
+#     print(num)
+
+# # como recorrer los arreglos?
+
+# # que es recorrer un arreglo...
+
+# # for clasico...
+
+# for i in range(len(numeros)):
+#     print(numeros[i])
 
 
+# print("aqui viene el simple")
+# # for simplificado
+# for numero in numeros:
+#     print(numero)
 
+# # iterando con un ciclo while...
+# print("iterando con un ciclo while")
+# i = 0
+# while i < len(numeros):
+#     print(numeros[i])
+#     i += 1
+
+# iterando con un metodo modificador (map)
+
+# es una funcion de orden superior que aplica una funcion adicional a cada elemento de un iterable (una lista) y devuelve un arreglo u objeto iterable con los resultados.
+
+
+#map(funcion, iterable)
+def duplicar(valor):
+    return valor * 2
+
+duplicados = list(map(duplicar, numeros))
+
+print("Arreglo original: ", numeros)
+print(f"arreglo duplicado: {duplicados}")
+
+dupli = []
+for numero in numeros:
+    doble = numero*2
+    dupli.append(doble)
+print(f"dupli {dupli}")
