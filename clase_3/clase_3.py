@@ -38,7 +38,7 @@
 
 # ordenamiento por burbuja.
 
-numeros = [5, 2, 9, 1, 5, 6]
+# numeros = [5, 2, 9, 1, 5, 6]
 
 # print('orden por burbuja, con ordenamiento paso a paso')
 # #ciclo for para inicializar el orden de los numeros, se toma la longitud del arreglo y se inserta un ciclo interior para continuar con el ordenamiento
@@ -53,3 +53,39 @@ numeros = [5, 2, 9, 1, 5, 6]
 #         print(f'estado general {numeros}')
 #     print("-----")
 
+
+
+# numeros = [5, 2, 9, 1, 5, 6]
+
+# print("Inserción - Ordenamiento paso a paso:")
+# for i in range(1, len(numeros)):
+#     actual = numeros[i]
+#     j = i - 1
+#     print(f"Inserción de {actual}")
+#     while j >= 0 and numeros[j] > actual:
+#         print(f"Desplazando {numeros[j]} a la derecha")
+#         numeros[j + 1] = numeros[j]
+#         j -= 1
+#         print("Estado actual:", numeros)
+#     numeros[j + 1] = actual
+#     print(f"{actual} insertado en posición {j + 1}")
+#     print("Estado actual:", numeros)
+#     print("---")
+
+# print("Resultado final:", numeros)
+
+
+# Ordena una lista de nombres usando el algoritmo de inserción.
+
+nombres = ['Carlos', 'Yorleidys', 'Luis', 'Beatriz', 'Alonso', 'Alfonso']
+print(nombres)
+
+for i in range(1, len(nombres)):
+    actual = nombres[i]
+    j = i - 1
+    while j >= 0 and nombres[j] > actual:
+        nombres[j + 1] = nombres[j]
+        j-=1
+    nombres[j + 1] = actual
+
+print(f'arreglo ordenado : {nombres}')
